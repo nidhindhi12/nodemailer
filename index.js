@@ -24,7 +24,7 @@ app.post('/sentmail', async (req, res) => {
         res.status(200).json({ status: false, data: { message: "Failed to sent email" } });
     }
 })
-
+console.log("changes made ");
 
 const startserver = async () => {
     try {
